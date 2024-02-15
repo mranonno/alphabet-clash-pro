@@ -15,6 +15,12 @@ function setInitialValue(element, value) {
     const currentText = document.getElementById(element);
     currentText.innerText = value;
 }
+
+// function getCurrentValueById(element) {
+//     const initialScore = document.getElementById(element);
+//         const scoreText = initialScore.innerText;
+//         parseInt(scoreText);
+// }
 function getRandomAlphabet() {
     // create random alphabet by array string
     const alphabetString = 'abcdefghijklmnopqrstuvwxyz';

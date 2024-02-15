@@ -6,7 +6,6 @@
 // }
 
 
-
 function play() {
     hideElementById('home-screen');
     hideElementById('score-screen');
